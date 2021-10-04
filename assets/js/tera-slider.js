@@ -25,13 +25,13 @@ Made by Themanoid
         if($sldr.hasClass('multi-slides')){
             $mousePos.x = e.pageX;
             if($mousePos.x > $(window).width()/2) {
-                $sldr.css('cursor', 'url(images/tera-slider/slide-right-dark.png), e-resize');
+                $sldr.css('cursor', 'url(http://localhost/portfolio/wp-content/themes/tera/assets/img/tera-slider/slide-right-dark.png), e-resize');
                 if($('body').hasClass('dark-slide'))
-                    $sldr.css('cursor', 'url(images/tera-slider/slide-right.png), e-resize');
+                    $sldr.css('cursor', 'url(http://localhost/portfolio/wp-content/themes/tera/assets/img/tera-slider/slide-right.png), e-resize');
             } else {
-               $sldr.css('cursor', 'url(images/tera-slider/slide-left-dark.png), w-resize');
+               $sldr.css('cursor', 'url(http://localhost/portfolio/wp-content/themes/tera/assets/img/tera-slider/slide-left-dark.png), w-resize');
                 if($('body').hasClass('dark-slide'))
-                    $sldr.css('cursor', 'url(images/tera-slider/slide-left.png), w-resize');
+                    $sldr.css('cursor', 'url(http://localhost/portfolio/wp-content/themes/tera/assets/img/tera-slider/slide-left.png), w-resize');
             }
         }
     });

@@ -1,3 +1,4 @@
 <?php
 
-require(dirname(__FILE__)) . '/inc/Enqueue.php';
+require(dirname(__FILE__)) . '/inc/enqueue.php';
+require(dirname(__FILE__)) . '/inc/functions.php';

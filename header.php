@@ -12,7 +12,7 @@
     <div class='container-fluid'>
         <header data-spy='affix'>
             <section>
-                <a class='brand' href='index.html'>Tera</a>
+                <a class='brand' href='index.html'>NA</a>
                 <ul id='navigation'>
                     <div class='trigger'>
                         <div class='bar'></div>
@@ -20,72 +20,20 @@
                         <div class='bar'></div>
                     </div>
                     <li>
-                        <a href='index.html'>Home</a>
+                        <a href='index.html'>Accueil</a>
                     </li>
                     <li>
-                        <a href='#'>Features</a>
+                        <a href='#'>Projets</a>
                         <ul>
                             <li>
-                                <a class='anchor' href='#work'>Anchor link</a>
+                                <a href='portfolio.html'>Pro</a>
                             </li>
                             <li>
-                                <a href='tera-slider.html'>Tera Slider</a>
+                                <a href='portfolio-no-spacing.html'>Scolaires</a>
                             </li>
                             <li>
-                                <a href='icons.html'>Retina icons</a>
+                                <a href='portfolio-3-columns.html'>Perso</a>
                             </li>
-                            <li>
-                                <a href='404.html'>404 Error page</a>
-                            </li>
-                            <li>
-                                <a href='index-boxed.html'>Boxed layout</a>
-                            </li>
-                            <li>
-                                <a href='profile.html'>Profile page</a>
-                            </li>
-                            <li>
-                                <a href='elements.html'>Elements</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='#'>Portfolio</a>
-                        <ul>
-                            <li>
-                                <a href='portfolio.html'>Default portfolio</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-no-spacing.html'>Portfolio no-spacing</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-3-columns.html'>3 Columns portfolio</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-lightbox.html'>Lightbox portfolio</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-caption.html'>Caption portfolio</a>
-                            </li>
-                            <li>
-                                <a href='single.html'>Single page</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href='#'>Blog</a>
-                        <ul>
-                        <li>
-                            <a href='blog.html'>Blog default</a>
-                        </li>
-                        <li>
-                            <a href='blog-sidebar.html'>Blog with sidebar</a>
-                        </li>
-                        <li>
-                            <a href='blog-single.html'>Blog single</a>
-                        </li>
-                        <li>
-                            <a href='blog-single-sidebar.html'>Blog single with sidebar</a>
-                        </li>
                         </ul>
                     </li>
                     <li>

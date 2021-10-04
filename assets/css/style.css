@@ -1229,9 +1229,9 @@ header {
 .dark-slide .brand:hover {
   color: #ccc; }
 .dark-slide .next-slide {
-  cursor: url(../images/slide-right.png), auto; }
+  cursor: url(../img/slide-right.png), auto; }
 .dark-slide .prev-slide {
-  cursor: url(../images/slide-left.png), auto; }
+  cursor: url(../img/slide-left.png), auto; }
 .dark-slide #navigation .trigger .bar {
   background: #fff; }
 @media screen and (min-width: 767px) {
