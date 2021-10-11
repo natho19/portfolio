@@ -138,6 +138,11 @@ h1 {
     font-weight: 100;
 }
 
+h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
 h3 {
     margin-bottom: 20px;
     font-weight: 300;
@@ -359,11 +364,11 @@ ul.comments li.comment ul li {
 }
 
 .top-line {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #F5F5F5;
 }
 
 .bottom-line {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 .brand {
@@ -398,7 +403,7 @@ figure.profile {
 
 figure.profile .social a.icon {
     color: #403E3B;
-    background: #eee;
+    background: #F5F5F5;
     font-size: 11px;
     height: 20px;
     width: 20px;
@@ -416,7 +421,7 @@ figure.profile .social a.icon {
 
 figure.profile .social a.icon:hover {
     background: #403E3B;
-    color: #eee;
+    color: #F5F5F5;
     text-decoration: none;
 }
 
@@ -776,7 +781,7 @@ section.wide {
 }
 
 section.gray {
-    background: #eee;
+    background: #F5F5F5;
 }
 
 section.jumbotron {
@@ -929,7 +934,7 @@ section.work {
     margin-top: 17px;
     padding: 3px;
     border: 0;
-    background: #eee;
+    background: #F5F5F5;
 }
 
 .sidebar #searchform button {
@@ -1055,7 +1060,7 @@ a.blog-item:after {
 }
 
 footer {
-    background: #eee;
+    background: #F5F5F5;
     margin-top: -5px;
 }
 
@@ -1072,6 +1077,7 @@ footer a.icon {
     height: 30px;
     line-height: 30px;
     text-align: center;
+    font-size: 25px;
     color: #403E3B;
     cursor: pointer;
     -webkit-transition: color 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -1087,7 +1093,7 @@ footer a.icon:hover {
 
 footer .copy {
     margin-top: 30px;
-    color: #bbb;
+    color: #403E3B;
     font-size: .8em;
 }
 
@@ -1774,6 +1780,12 @@ header.affix #navigation .trigger .bar {
     color: #2F97C1;
     font-weight: 600;
     font-size: 1em;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+.slider h1 {
+    font-size: 1.5em !important;
+    line-height: 1.5em;
+    font-family: "Inconsolata", sans-serif !important;
 }
 
