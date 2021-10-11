@@ -6,66 +6,16 @@
 
 <?php get_header(); ?>
 
-<!-- Slider -->
+<!-- Slides -->
 <div class='slider'>
     <ul class='slides'>
         <li class='slide dark'>
             <section class='jumbotron'>
-                <div class='bg' style='background-image:url(https://unsplash.imgix.net/photo-1423176281849-2d0f865692cc?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'></div>
+                <div class='bg' style='background:url(<?= TR_IMG_URL . '/projects/test.png' ?>);'></div>
                 <section>
                     <div class='row'>
                         <div class='col-md-6'>
-                        <p>Meet Tera. <br>The Ultimate Portfolio Template.</p>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </li>
-        <li class='slide dark'>
-            <section class='jumbotron'>
-                <div class='bg' style='background-image:url(<?= TR_IMG_URL . '/projects/05.jpg' ?>);'></div>
-                <section>
-                    <div class='row'>
-                        <div class='col-md-12 text-center'>
-    
-                        <h1>Think big.</h1>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </li>
-        <li class='slide text-right'>
-            <section class='jumbotron'>
-                <div class='bg' style='background-image:url(<?= TR_IMG_URL . '/projects/05.png' ?>);'></div>
-                <section>
-                    <div class='row'>
-                        <div class='col-md-12 text-center'>
-                        <h1>Show off.</h1>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </li>
-        <li class='slide dark'>
-            <section class='jumbotron'>
-                <div class='bg' style='background-image:url(<?= TR_IMG_URL . '/projects/01.jpg' ?>);'></div>
-                <section>
-                    <div class='row'>
-                        <div class='col-md-4'>
-                        <h1>Express.</h1>
-                        <p>With the unique Tera slider, suitable for light and dark image backgrounds.</p>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </li>
-        <li class='slide dark'>
-            <section class='jumbotron'>
-                <div class='bg' style='background-image:url(https://unsplash.imgix.net/photo-1416400453940-65c69d70ad91?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'></div>
-                <section>
-                    <div class='row'>
-                        <div class='col-md-5'>
-                        <h2>It's Ultimate.</h2>
+                        <p>Hello, Je suis Nathan Akpawu. <br>Développeur web freelance.</p>
                         </div>
                     </div>
                 </section>
@@ -73,6 +23,58 @@
         </li>
     </ul>
 </div>
+
+<!-- A propos -->
+<section>
+    <div class='row block'>
+        <div class='col-md-6 col-md-offset-3'>
+            <div class='text-center'>
+                <div class='title-block'>
+                    <h2>A propos</h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur nesciunt totam laborum esse veritatis sunt officiis beatae odit maxime. Hic corporis dignissimos autem quas maiores, tenetur quaerat magnam accusantium!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mes compétences -->
+<section class='contact top-line mobile-center'>
+    <div class='block text-center'>
+        <div class="title-block">
+            <h2>Mes compétences</h2>
+        </div>
+        <div class='row skills'>
+            <div class='col-md-4 skill'>
+                <div class='skill-icon'>
+                    <i class='fa fa-code'></i>
+                </div>
+                <div class='skill-description'>
+                    <h3>Backend</h3>
+                    <p>PHP, Node.js, C#</p>
+                </div>
+            </div>
+            <div class='col-md-4 skill'>
+                <div class='skill-icon'>
+                    <i class='fa fa-laptop'></i>
+                </div>
+                <div class='skill-description'>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JS, Vue.js, SASS, Bootstrap</p>
+                </div>
+            </div>
+            <div class='col-md-4 skill'>
+                <div class='skill-icon'>
+                    <i class='fa fa-wordpress'></i>
+                </div>
+                <div class='skill-description'>
+                    <h3>Wordpress</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut facilis libero dignissimos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Projets -->
 <section class='work' id='work'>
@@ -191,47 +193,6 @@
             </a>
         </li>
     </ul>
-</section>
-
-<!-- Informations de contact -->
-<section class='contact top-line mobile-center'>
-    <div class='block'>
-        <div class='row'>
-            <div class='col-md-4'>
-                <div class='row'>
-                    <div class='col-md-2'>
-                        <div class='fa fa-building-o'></div>
-                    </div>
-                    <div class='col-md-10'>
-                        <p>Teratstreet 404</p>
-                        <p>13337, AB, CD</p>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class='row'>
-                    <div class='col-md-2'>
-                        <div class='fa fa-phone'></div>
-                    </div>
-                    <div class='col-md-10'>
-                        <p>(10) 10 100 100</p>
-                        <p>(13) 33 333 337</p>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class='row'>
-                    <div class='col-md-2'>
-                        <div class='fa fa-envelope-o'></div>
-                    </div>
-                    <div class='col-md-10'>
-                        <p>support@themanoid.com</p>
-                        <p>sales@themanoid.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <?php get_footer(); ?>
