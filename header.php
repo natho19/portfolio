@@ -12,7 +12,7 @@
     <div class='container-fluid'>
         <header data-spy='affix'>
             <section>
-                <a class='brand' href='index.html'>NA</a>
+                <a class='brand' href='http://localhost/portfolio/'>NA</a>
                 <ul id='navigation'>
                     <div class='trigger'>
                         <div class='bar'></div>
@@ -23,10 +23,10 @@
                     <li>
                         <a href='#'>Projets</a>
                         <ul>
-                            <li><a href='#'>Pro</a></li>
-                            <li><a href='#'>Scolaires</a></li>
-                            <li><a href='#'>Perso</a></li>
-                            <li><a href='#'>Tous les projets</a></li>
+                            <li><a href='http://localhost/portfolio/category/non-classe/'>Pro</a></li>
+                            <li><a href='http://localhost/portfolio/category/non-classe/'>Scolaires</a></li>
+                            <li><a href='http://localhost/portfolio/category/non-classe/'>Perso</a></li>
+                            <li><a href='http://localhost/portfolio/category/non-classe/'>Tous mes projets</a></li>
                         </ul>
                     </li>
                     <li><a href='#'>Contact</a></li>

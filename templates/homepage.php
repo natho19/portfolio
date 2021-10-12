@@ -85,9 +85,9 @@
             </div>
         </div>
     </div>
-    <ul class='col-2' id='grid'>
+    <ul class='col-2 grid'>
         <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://ununsplash.imgix.net/photo-1414637104192-f9ab9a0ee249?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://ununsplash.imgix.net/photo-1414637104192-f9ab9a0ee249?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
                 <div class='caption'>
                     <div class='field'>
                         Design
@@ -100,7 +100,7 @@
             </a>
         </li>
         <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
                 <div class='caption'>
                     <div class='field'>
                         Photography
@@ -113,7 +113,7 @@
             </a>
         </li>
         <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
                 <div class='caption'>
                     <div class='field'>
                         Design + Identity
@@ -126,7 +126,7 @@
             </a>
         </li>
         <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
                 <div class='caption'>
                     <div class='field'>
                         Photography
@@ -140,7 +140,7 @@
         </li>
     </ul>
     <div class="text-center">
-        <a href='#' class="btn btn-default">Tous les projets</a>
+        <a href='#' class="btn btn-default">Tous mes projets</a>
     </div>
 </section>
 

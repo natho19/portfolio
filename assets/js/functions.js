@@ -17,7 +17,7 @@ Made by Themanoid
     */
 
     //  Define the portfolio grid
-    var $grid = $('#grid');
+    var $grid = $('.grid');
 
     //  Show filter options on trigger click
     $('#filter-trigger').on('tap', function(){
