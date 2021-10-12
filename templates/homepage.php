@@ -139,6 +139,9 @@
             </a>
         </li>
     </ul>
+    <div class="text-center">
+        <a href='#' class="btn btn-default">Tous les projets</a>
+    </div>
 </section>
 
 <?php get_footer(); ?>

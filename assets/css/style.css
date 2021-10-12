@@ -1764,9 +1764,8 @@ header.affix #navigation .trigger .bar {
 }
 
 .skill-icon i {
-    text-align: center;
-    background-color: #E4F1F1;
-    color: #2F97C1;
+    background-color: #f9ee70;
+    color: #403E3B;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -1777,7 +1776,6 @@ header.affix #navigation .trigger .bar {
 
 .skill-description h3 {
     margin-top: 0;
-    color: #2F97C1;
     font-weight: 600;
     font-size: 1em;
     margin-bottom: 8px;
@@ -1789,3 +1787,6 @@ header.affix #navigation .trigger .bar {
     font-family: "Inconsolata", sans-serif !important;
 }
 
+.projects-pagination {
+    margin-bottom: 50px;
+}

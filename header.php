@@ -19,26 +19,17 @@
                         <div class='bar'></div>
                         <div class='bar'></div>
                     </div>
-                    <li>
-                        <a href='index.html'>Accueil</a>
-                    </li>
+                    <li><a href='http://localhost/portfolio/'>Accueil</a></li>
                     <li>
                         <a href='#'>Projets</a>
                         <ul>
-                            <li>
-                                <a href='portfolio.html'>Pro</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-no-spacing.html'>Scolaires</a>
-                            </li>
-                            <li>
-                                <a href='portfolio-3-columns.html'>Perso</a>
-                            </li>
+                            <li><a href='#'>Pro</a></li>
+                            <li><a href='#'>Scolaires</a></li>
+                            <li><a href='#'>Perso</a></li>
+                            <li><a href='#'>Tous les projets</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href='contact.html'>Contact</a>
-                    </li>
+                    <li><a href='#'>Contact</a></li>
                 </ul>
             </section>
         </header>
