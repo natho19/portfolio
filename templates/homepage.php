@@ -71,66 +71,35 @@
     <div class='row'>
         <div class='col-md-12'>
             <div class='title-block text-center'>
-                <h2>Derniers projets</h2>
+                <h2><?php the_field('projects_section_title'); ?></h2>
             </div>
         </div>
     </div>
-    <ul class='col-2 grid'>
-        <li class='item'>
-            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://ununsplash.imgix.net/photo-1414637104192-f9ab9a0ee249?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
-                <div class='caption'>
-                    <div class='field'>
-                        Design
-                    </div>
-                    <div class='titles'>
-                        <div class='title'>Books</div>
-                        <div class='subtitle'>The branding</div>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class='item'>
-            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
-                <div class='caption'>
-                    <div class='field'>
-                        Photography
-                    </div>
-                    <div class='titles'>
-                        <div class='title'>Suitable</div>
-                        <div class='subtitle'>Clothing</div>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class='item'>
-            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
-                <div class='caption'>
-                    <div class='field'>
-                        Design + Identity
-                    </div>
-                    <div class='titles'>
-                        <div class='title'>Yellow Mellow</div>
-                        <div class='subtitle'>Brand identity</div>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li class='item'>
-            <a class='inner' href='http://localhost/portfolio/bonjour-tout-le-monde/' style='background:url(https://unsplash.imgix.net/photo-1423145406370-2b342ae5b597?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
-                <div class='caption'>
-                    <div class='field'>
-                        Photography
-                    </div>
-                    <div class='titles'>
-                        <div class='title'>Suitable</div>
-                        <div class='subtitle'>Clothing</div>
-                    </div>
-                </div>
-            </a>
-        </li>
-    </ul>
+    <?php if (have_rows('projects')) : ?>
+        <ul class='col-2 grid'>
+            <?php 
+                while (have_rows('projects')) : the_row();
+                $post = get_sub_field('project'); 
+                setup_postdata($post); 
+            ?>
+                <li class='item'>
+                    <a class='inner' href='<?php the_permalink(); ?>' style='background:url(<?= get_the_post_thumbnail_url(); ?>);'>
+                        <div class='caption'>
+                            <div class='field'>
+                                Wordpress, Intégration
+                            </div>
+                            <div class='titles'>
+                                <div class='title'><?php the_title(); ?></div>
+                                <div class='subtitle'>Développement du site web de <?php the_title(); ?></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            <?php wp_reset_postdata(); endwhile; ?>
+        </ul>
+    <?php endif; ?>
     <div class='text-center'>
-        <a href='#' class='btn btn-default'>Tous mes projets</a>
+        <a href='<?= esc_url(get_field('projects_button')['url']); ?>' class='btn btn-default'><?= get_field('projects_button')['title']; ?></a>
     </div>
 </section>
 
