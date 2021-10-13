@@ -29,7 +29,7 @@
                             <li><a href='http://localhost/portfolio/category/non-classe/'>Tous mes projets</a></li>
                         </ul>
                     </li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='http://localhost/portfolio/contact/'>Contact</a></li>
                 </ul>
             </section>
         </header>
