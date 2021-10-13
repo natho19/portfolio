@@ -1794,3 +1794,11 @@ header.affix #navigation .trigger .bar {
 .project-part {
     margin-bottom: 50px;
 }
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-yellow {
+    background-color: #f9ee70;
+}

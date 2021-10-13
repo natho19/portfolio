@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <!-- Formulaire de contact -->
-<section class='jumbotron' style='background:#f9ee70'>
+<section class='jumbotron bg-yellow'>
     <section>
         <form action='#' class='row' id='form' name='form'>
             <div class='col-md-8 col-md-offset-2'>

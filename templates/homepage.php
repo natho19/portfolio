@@ -129,8 +129,8 @@
             </a>
         </li>
     </ul>
-    <div class="text-center">
-        <a href='#' class="btn btn-default">Tous mes projets</a>
+    <div class='text-center'>
+        <a href='#' class='btn btn-default'>Tous mes projets</a>
     </div>
 </section>
 
