@@ -7,22 +7,26 @@
 <?php get_header(); ?>
 
 <!-- Slides -->
-<div class='slider'>
-    <ul class='slides'>
-        <li class='slide dark'>
-            <section class='jumbotron'>
-                <div class='bg' style='background:url(<?= TR_IMG_URL . '/background.jpg' ?>);'></div>
-                <section>
-                    <div class='row'>
-                        <div class='col-md-12'>
-                        <h1>Hello, Je suis Nathan Akpawu, <br>Développeur Web.</h1>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </li>
-    </ul>
-</div>
+<?php if (have_rows('slides')) : ?>
+    <div class='slider'>
+        <ul class='slides'>
+            <?php while (have_rows('slides')) : the_row(); ?>
+                <li class='slide dark'>
+                    <section class='jumbotron'>
+                        <div class='bg' style='background:url(<?= esc_url(get_sub_field('image')['url']); ?>);'></div>
+                        <section>
+                            <div class='row'>
+                                <div class='col-md-12'>
+                                    <h1><?php the_sub_field('text'); ?></h1>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </li>
+            <?php endwhile; ?>
+        </ul>
+    </div>
+<?php endif; ?>
 
 <!-- A propos -->
 <section>
@@ -30,51 +34,37 @@
         <div class='col-md-6 col-md-offset-3'>
             <div class='text-center'>
                 <div class='title-block'>
-                    <h2>A propos</h2>
+                    <h2><?php the_field('about_section_title'); ?></h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur nesciunt totam laborum esse veritatis sunt officiis beatae odit maxime. Hic corporis dignissimos autem quas maiores, tenetur quaerat magnam accusantium!</p>
+                <p><?php the_field('about'); ?></p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Mes compétences -->
-<section class='contact wide gray mobile-center'>
-    <div class='block text-center'>
-        <div class="title-block">
-            <h2>Mes compétences</h2>
-        </div>
-        <div class='row skills'>
-            <div class='col-md-4 skill'>
-                <div class='skill-icon'>
-                    <i class='fa fa-code'></i>
-                </div>
-                <div class='skill-description'>
-                    <h3>Backend</h3>
-                    <p>PHP, Node.js, C#</p>
-                </div>
+<?php if (have_rows('skills')) : ?>
+    <section class='contact wide gray mobile-center'>
+        <div class='block text-center'>
+            <div class="title-block">
+                <h2><?php the_field('skills_section_title'); ?></h2>
             </div>
-            <div class='col-md-4 skill'>
-                <div class='skill-icon'>
-                    <i class='fa fa-laptop'></i>
-                </div>
-                <div class='skill-description'>
-                    <h3>Frontend</h3>
-                    <p>HTML, CSS, JS, Vue.js, SASS, Bootstrap</p>
-                </div>
-            </div>
-            <div class='col-md-4 skill'>
-                <div class='skill-icon'>
-                    <i class='fa fa-wordpress'></i>
-                </div>
-                <div class='skill-description'>
-                    <h3>Wordpress</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut facilis libero dignissimos.</p>
-                </div>
+            <div class='row skills'>
+                <?php while (have_rows('skills')) : the_row(); ?>
+                    <div class='col-md-4 skill'>
+                        <div class='skill-icon'>
+                            <i class='fa <?php the_sub_field('icon'); ?>'></i>
+                        </div>
+                        <div class='skill-description'>
+                            <h3><?php the_sub_field('title'); ?></h3>
+                            <p><?php the_sub_field('list'); ?></p>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+<?php endif; ?>
 
 <!-- Projets -->
 <section class='block'>
