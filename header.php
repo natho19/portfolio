@@ -23,10 +23,10 @@
                     <li>
                         <a href='#'>Projets</a>
                         <ul>
-                            <li><a href='http://localhost/portfolio/category/non-classe/'>Pro</a></li>
-                            <li><a href='http://localhost/portfolio/category/non-classe/'>Scolaires</a></li>
-                            <li><a href='http://localhost/portfolio/category/non-classe/'>Perso</a></li>
-                            <li><a href='http://localhost/portfolio/category/non-classe/'>Tous mes projets</a></li>
+                            <li><a href='http://localhost/portfolio/category/projets-professionnels/'>Pro</a></li>
+                            <li><a href='http://localhost/portfolio/category/projets-scolaires/'>Scolaires</a></li>
+                            <li><a href='http://localhost/portfolio/category/projets-personnels/'>Perso</a></li>
+                            <li><a href='http://localhost/portfolio/?post_type=post'>Tous mes projets</a></li>
                         </ul>
                     </li>
                     <li><a href='http://localhost/portfolio/contact/'>Contact</a></li>
