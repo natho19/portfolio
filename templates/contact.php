@@ -22,7 +22,7 @@
                         <div class='fa fa-building-o'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>Agoè, Vakpossito <br> Lomé-Togo</p>
+                        <p><?php the_field('address'); ?></p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                         <div class='fa fa-phone'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>(+228) 92 14 51 61</p>
+                        <p><?php the_field('telephone'); ?></p>
                     </div>
                 </div>
             </div>
