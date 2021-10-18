@@ -36,7 +36,7 @@
                 <div class='title-block'>
                     <h2><?php the_field('about_section_title'); ?></h2>
                 </div>
-                <p><?php the_field('about'); ?></p>
+                <?php the_field('about'); ?>
             </div>
         </div>
     </div>
@@ -78,23 +78,10 @@
     <?php if (have_rows('projects')) : ?>
         <ul class='col-2 grid'>
             <?php 
-                while (have_rows('projects')) : the_row();
-                $post = get_sub_field('project'); 
-                setup_postdata($post); 
-            ?>
-                <li class='item'>
-                    <a class='inner' href='<?php the_permalink(); ?>' style='background:url(<?= get_the_post_thumbnail_url(); ?>);'>
-                        <div class='caption'>
-                            <div class='field'>
-                                Wordpress, Intégration
-                            </div>
-                            <div class='titles'>
-                                <div class='title'><?php the_title(); ?></div>
-                                <div class='subtitle'>Développement du site web de <?php the_title(); ?></div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
+            while (have_rows('projects')) : the_row();
+            $post = get_sub_field('project'); 
+            setup_postdata($post); ?>
+                <?php get_template_part('parts/content', 'post'); ?>
             <?php wp_reset_postdata(); endwhile; ?>
         </ul>
     <?php endif; ?>

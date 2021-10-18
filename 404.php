@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!-- Erreur 404 -->
 <section class='jumbotron bg-white'>
     <section>
         <h1>Oups ! Cette page n'existe pas.</h1>

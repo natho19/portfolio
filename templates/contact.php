@@ -13,6 +13,7 @@
     </section>
 </section>
 
+<!-- Informations de contact -->
 <section class='contact mobile-center'>
     <div class='block'>
         <div class='row'>
@@ -22,7 +23,7 @@
                         <div class='fa fa-building-o'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p><?php the_field('address'); ?></p>
+                        <address><?php the_field('address'); ?></address>
                     </div>
                 </div>
             </div>
@@ -32,7 +33,7 @@
                         <div class='fa fa-phone'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p><?php the_field('telephone'); ?></p>
+                        <address><?php the_field('telephone'); ?></address>
                     </div>
                 </div>
             </div>
@@ -42,7 +43,7 @@
                         <div class='fa fa-envelope-o'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>contact@nakpawu.com</p>
+                        <address><?php the_field('email'); ?></address>
                     </div>
                 </div>
             </div>

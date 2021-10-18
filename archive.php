@@ -13,10 +13,21 @@
 
 <!-- Projets -->
 <section class='work'>
+    <!-- Liste des projets -->
     <?php if (have_posts()) : ?>
-        <?php get_template_part('parts/content', 'post'); ?>
+        <ul class='col-2 grid'>
+            <?php while (have_posts()) : the_post(); ?>
+                <?php get_template_part('parts/content', 'post'); ?>
+            <?php endwhile; ?>
+        </ul>
+    <!-- Aucun projet -->
     <?php else : ?>
         <?php get_template_part('parts/content', 'none'); ?>
+    <?php endif; ?>
+    
+    <!-- Pagination  -->
+    <?php if (function_exists('my_pagination')) : ?>
+        <?php my_pagination(); ?>
     <?php endif; ?>
 </section>
 

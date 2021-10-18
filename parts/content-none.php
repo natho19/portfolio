@@ -1,3 +1,4 @@
+<!-- Aucun projet -->
 <div class='row block'>
     <div class='col-md-6 col-md-offset-3'>
         <div class='text-center'>

@@ -28,6 +28,7 @@ add_action('init', function() {
     register_post_type($post_type, $post_type_object);
 });
 
+// Get archive title without prefix
 function my_theme_archive_title($title) {
     if (is_category()) {
         $title = single_cat_title('', false);
@@ -40,10 +41,10 @@ function my_theme_archive_title($title) {
 }
 add_filter('get_the_archive_title', 'my_theme_archive_title');
 
-// Disable paragraph to input wpcf7
+// Disable paragraph to input in wpcf7
 add_filter('wpcf7_autop_or_not', '__return_false');
 
-// Mailtrap
+// Mailtrap for wpcf7
 function mailtrap($phpmailer) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'smtp.mailtrap.io';

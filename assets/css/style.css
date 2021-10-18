@@ -1803,8 +1803,23 @@ header.affix #navigation .trigger .bar {
     background-color: #f9ee70;
 }
 
+.project-content h3 {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    border-bottom: 1px solid #403E3B;
+    padding-bottom: 5px;
+}
+
 .project-content p {
     margin-bottom: 15px;
+}
+
+.project-part h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .mb-30 {
@@ -1848,4 +1863,22 @@ section.contact section {
     color: #155724;
     background-color: #d4edda;
     border-color: #c3e6cb;
+}
+
+address {
+    font-size: .9em;
+    line-height: 1.6em;
+    font-family: "Inconsolata", sans-serif;
+    color: #888;
+    margin: 0 0 6px;
+}
+
+.inner .caption .titles .title {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.inner .caption .titles .subtitle {
+    font-size: 14px;
+    margin: 0;
 }

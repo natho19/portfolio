@@ -1,7 +1,8 @@
+<!-- Titre à gauche -->
 <div class='row project-part'>
     <div class='col-md-5'>
         <div class='block'>
-            <h3><?php the_sub_field('title'); ?></h3>
+            <h2><?php the_sub_field('title'); ?></h2>
             <?php the_sub_field('description'); ?>
         </div>
     </div>
