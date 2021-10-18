@@ -40,3 +40,16 @@ function my_theme_archive_title($title) {
 }
 add_filter('get_the_archive_title', 'my_theme_archive_title');
 
+// Disable paragraph to input wpcf7
+add_filter('wpcf7_autop_or_not', '__return_false');
+
+// Mailtrap
+function mailtrap($phpmailer) {
+    $phpmailer->isSMTP();
+    $phpmailer->Host = 'smtp.mailtrap.io';
+    $phpmailer->SMTPAuth = true;
+    $phpmailer->Port = 2525;
+    $phpmailer->Username = '0c024a42f5cc91';
+    $phpmailer->Password = '8fee38663d3fc1';
+}
+add_action('phpmailer_init', 'mailtrap');

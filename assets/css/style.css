@@ -489,7 +489,7 @@ input.form-element:focus, textarea.form-element:focus {
 
 textarea.form-element {
     padding: 10px 20px;
-    height: 150px;
+    height: 100px;
     resize: vertical;
 }
 
@@ -1809,4 +1809,43 @@ header.affix #navigation .trigger .bar {
 
 .mb-30 {
     margin-bottom: 30px;
+}
+
+section.contact section {
+    bottom: 0px !important;
+}
+
+.contact h1 {
+    font-size: 3em !important;
+}
+
+.btn-default:focus {
+    color: #FFF !important;
+}
+
+.wpcf7-not-valid-tip {
+    font-size: 13px;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    border: 1px solid #721c24;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0 !important;
+    font-size: 13px;
+}
+
+.wpcf7 form.aborted .wpcf7-response-output,
+.wpcf7 form.failed .wpcf7-response-output,
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
 }

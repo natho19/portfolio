@@ -7,24 +7,9 @@
 <?php get_header(); ?>
 
 <!-- Formulaire de contact -->
-<section class='jumbotron bg-yellow'>
+<section class='contact jumbotron bg-yellow'>
     <section>
-        <form action='#' class='row' id='form' name='form'>
-            <div class='col-md-8 col-md-offset-2'>
-                <div class='block'>
-                    <div class='title-block text-center'>
-                        <h1>Hi !</h1>
-                    </div>
-                    <input class='form-element' id='name' name='name' placeholder='Nom' type='text'>
-                    <input class='form-element' id='email' name='email' placeholder='Email' type='text'>
-                    <input class='form-element' id='phone' name='phone' placeholder='Téléphone' type='text'>
-                    <textarea class='form-element' id='message' name='message' placeholder='Message' type='text'></textarea>
-                    <div class='text-center'>
-                        <button class='btn btn-default' id='send' type='submit'>Envoyer</button>
-                    </div>
-                </div>
-            </div>
-        </form>
+        <?= do_shortcode('[contact-form-7 id="260" title="Formulaire de contact" html_class="row"]'); ?>
     </section>
 </section>
 
@@ -37,8 +22,7 @@
                         <div class='fa fa-building-o'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>Teratstreet 404</p>
-                        <p>13337, AB, CD</p>
+                        <p>Agoè, Vakpossito <br> Lomé-Togo</p>
                     </div>
                 </div>
             </div>
@@ -48,8 +32,7 @@
                         <div class='fa fa-phone'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>(10) 10 100 100</p>
-                        <p>(13) 33 333 337</p>
+                        <p>(+228) 92 14 51 61</p>
                     </div>
                 </div>
             </div>
@@ -59,8 +42,7 @@
                         <div class='fa fa-envelope-o'></div>
                     </div>
                     <div class='col-md-10'>
-                        <p>support@themanoid.com</p>
-                        <p>sales@themanoid.com</p>
+                        <p>contact@nakpawu.com</p>
                     </div>
                 </div>
             </div>
