@@ -12,10 +12,12 @@
 </section>
 
 <!-- Projets -->
-<?php if (have_posts()) : ?>
-    <?php get_template_part('parts/content', 'post'); ?>
-<?php else : ?>
-    <?php get_template_part('parts/content', 'none'); ?>
-<?php endif; ?>
+<section class='work'>
+    <?php if (have_posts()) : ?>
+        <?php get_template_part('parts/content', 'post'); ?>
+    <?php else : ?>
+        <?php get_template_part('parts/content', 'none'); ?>
+    <?php endif; ?>
+</section>
 
 <?php get_footer(); ?>

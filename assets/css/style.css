@@ -1803,6 +1803,10 @@ header.affix #navigation .trigger .bar {
     background-color: #f9ee70;
 }
 
-.mb-15 {
+.project-content p {
     margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
