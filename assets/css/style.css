@@ -1802,3 +1802,7 @@ header.affix #navigation .trigger .bar {
 .bg-yellow {
     background-color: #f9ee70;
 }
+
+.mb-15 {
+    margin-bottom: 15px;
+}
