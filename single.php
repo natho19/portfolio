@@ -28,23 +28,23 @@
                         <p><?php the_field('customer'); ?></p>
                     </div>
                 <?php endif; ?>
-                <?php if (get_field('frontend')) : ?>
-                    <div>
-                        <h3>Frontend</h3>
-                        <p><?php the_field('frontend'); ?></p>
-                    </div>
-                <?php endif; ?>
-            </div>
-            <div class='col-md-3'>
                 <?php if (get_field('role')) : ?>
                     <div>
                         <h3>Rôle</h3>
                         <p><?php the_field('role'); ?></p>
                     </div>
                 <?php endif; ?>
+            </div>
+            <div class='col-md-3'>
+                <?php if (get_field('frontend')) : ?>
+                    <div>
+                        <h3>Front-end</h3>
+                        <p><?php the_field('frontend'); ?></p>
+                    </div>
+                <?php endif; ?>
                 <?php if (get_field('backend')) : ?>
                     <div>
-                        <h3>Backend</h3>
+                        <h3>Back-end</h3>
                         <p><?php the_field('backend'); ?></p>
                     </div>
                 <?php endif; ?>
@@ -91,7 +91,7 @@
     </section>
 <?php endif; ?>
 
-<!-- Autres projets -->
+<!-- Mes autres projets -->
 <?php
 // Requête pour sélectionner 2 projets aléatoires sans le projet en cours
 $args = array(
@@ -107,7 +107,7 @@ if ($random_two_projects) : ?>
         <div class='row'>
             <div class='col-md-12'>
                 <div class='title-block'>
-                    <h2>Autres projets</h2>
+                    <h2>Mes autres projets</h2>
                 </div>
             </div>
         </div>

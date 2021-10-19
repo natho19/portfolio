@@ -21,7 +21,7 @@
                     </div>
                     <li><a href='http://localhost/portfolio/'>Accueil</a></li>
                     <li>
-                        <a href='#'>Projets</a>
+                        <a href='#'>Mes projets</a>
                         <ul>
                             <li><a href='http://localhost/portfolio/category/projets-professionnels/'>Pro</a></li>
                             <li><a href='http://localhost/portfolio/category/projets-scolaires/'>Scolaires</a></li>

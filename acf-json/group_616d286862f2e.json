@@ -56,6 +56,25 @@
             "maxlength": ""
         },
         {
+            "key": "field_616d28c2738fa",
+            "label": "Front-end",
+            "name": "frontend",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_616d289b738f9",
             "label": "Rôle",
             "name": "role",
@@ -75,27 +94,8 @@
             "maxlength": ""
         },
         {
-            "key": "field_616d28c2738fa",
-            "label": "Frontend",
-            "name": "frontend",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
             "key": "field_616d28d0738fb",
-            "label": "Backend",
+            "label": "Back-end",
             "name": "backend",
             "type": "text",
             "instructions": "",
@@ -130,5 +130,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1634545171
+    "modified": 1634657008
 }
