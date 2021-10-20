@@ -3,6 +3,11 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= TR_IMG_URL . '/favicon/apple-touch-icon.png'; ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= TR_IMG_URL . '/favicon/favicon-32x32.png'; ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= TR_IMG_URL . '/favicon/favicon-16x16.png'; ?>">
+    <link rel="manifest" href="<?= TR_IMG_URL . '/favicon/site.webmanifest'; ?>">
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,300italic,100italic,700italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
