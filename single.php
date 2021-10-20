@@ -14,41 +14,45 @@
 <section class='wide'>
     <div class='block'>
         <div class='row project-content'>
-            <div class='col-md-5'>
+            <div class='col-md-4'>
                 <h3>Description</h3>
                 <?php the_content(); ?>
                 <?php if (get_field('link')) : ?>
                     <a href="<?= esc_url(get_field('link')['url']); ?>" class="btn btn-default mb-30"><?= get_field('link')['title']; ?></a>
                 <?php endif; ?>
             </div>
-            <div class='col-md-3 col-md-offset-1'>
-                <?php if (get_field('customer')) : ?>
-                    <div>
-                        <h3>Client</h3>
-                        <p><?php the_field('customer'); ?></p>
-                    </div>
-                <?php endif; ?>
-                <?php if (get_field('role')) : ?>
-                    <div>
-                        <h3>Rôle</h3>
-                        <p><?php the_field('role'); ?></p>
-                    </div>
-                <?php endif; ?>
-            </div>
-            <div class='col-md-3'>
-                <?php if (get_field('frontend')) : ?>
-                    <div>
-                        <h3>Front-end</h3>
-                        <p><?php the_field('frontend'); ?></p>
-                    </div>
-                <?php endif; ?>
-                <?php if (get_field('backend')) : ?>
-                    <div>
-                        <h3>Back-end</h3>
-                        <p><?php the_field('backend'); ?></p>
-                    </div>
-                <?php endif; ?>
-            </div>
+            <?php if (get_field('customer') || get_field('role')) : ?>
+                <div class='col-md-3 col-md-offset-1'>
+                    <?php if (get_field('customer')) : ?>
+                        <div>
+                            <h3>Client</h3>
+                            <p><?php the_field('customer'); ?></p>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (get_field('role')) : ?>
+                        <div>
+                            <h3>Rôle</h3>
+                            <p><?php the_field('role'); ?></p>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
+            <?php if (get_field('frontend') || get_field('backend')) : ?>
+                <div class='col-md-3 col-md-offset-1'>
+                    <?php if (get_field('frontend')) : ?>
+                        <div>
+                            <h3>Front-end</h3>
+                            <p><?php the_field('frontend'); ?></p>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (get_field('backend')) : ?>
+                        <div>
+                            <h3>Back-end</h3>
+                            <p><?php the_field('backend'); ?></p>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 </section>
