@@ -1,5 +1,5 @@
 <!-- Titre à gauche -->
-<div class='row project-part'>
+<div class='row project-part project-responsive'>
     <div class='col-md-5'>
         <div class='block'>
             <h2><?php the_sub_field('title'); ?></h2>

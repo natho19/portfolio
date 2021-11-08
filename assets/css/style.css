@@ -1883,3 +1883,10 @@ address {
     font-size: 14px;
     margin: 0;
 }
+
+@media screen and (max-width: 991px) {
+    .project-responsive {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
