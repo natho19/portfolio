@@ -3,6 +3,9 @@
 // Disable Gutenberg
 add_filter('use_block_editor_for_post', '__return_false');
 
+// Disable admin bar for all users
+add_filter('show_admin_bar', '__return_false');
+
 // Image path
 define('IMG_URL', get_template_directory_uri() . '/assets/img');
 

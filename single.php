@@ -14,7 +14,7 @@
 <section class='wide'>
     <div class='block'>
         <div class='row project-content'>
-            <div class='col-md-4'>
+            <div class='col-md-5'>
                 <h3>Description</h3>
                 <?php the_content(); ?>
                 <?php if (get_field('link')) : ?>
@@ -38,7 +38,7 @@
                 </div>
             <?php endif; ?>
             <?php if (get_field('frontend') || get_field('backend')) : ?>
-                <div class='col-md-3 col-md-offset-1'>
+                <div class='col-md-3'>
                     <?php if (get_field('frontend')) : ?>
                         <div>
                             <h3>Front-end</h3>

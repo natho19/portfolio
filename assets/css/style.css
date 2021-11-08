@@ -1820,6 +1820,7 @@ header.affix #navigation .trigger .bar {
     font-weight: 300;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 1.4;
 }
 
 .mb-30 {
