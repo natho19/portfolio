@@ -875,6 +875,7 @@ section .block.small {
 
 section .block img {
     max-width: 100%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 
 section .block .block {
@@ -1146,6 +1147,7 @@ footer .copy {
     padding: 0;
     margin: 2%;
     width: 46%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 
 @media screen and (max-width: 767px) {
