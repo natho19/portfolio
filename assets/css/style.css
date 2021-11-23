@@ -1892,3 +1892,7 @@ address {
         flex-direction: column-reverse;
     }
 }
+
+.contact + footer {
+    background: #FFF;   
+}
