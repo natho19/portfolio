@@ -87,7 +87,7 @@
         },
         {
             "key": "field_616d2a88bfd23",
-            "label": "Gallerie",
+            "label": "Galerie",
             "name": "gallery",
             "type": "gallery",
             "instructions": "",
@@ -128,5 +128,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1634544297
+    "modified": 1639414422
 }
